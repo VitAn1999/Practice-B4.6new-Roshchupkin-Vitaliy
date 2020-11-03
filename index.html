@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KOTOR</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="super-wrap">
+        <header class="header">
+            <img class="header__logo" src="logo/lightsabers.png" alt="лого компании" width="120" height="175">
+            <p class="header__text">
+                ООО «Рыцари Старой Республики» – дистрибьютор реплик джедайских световых мечей на территории Татуина.
+            </p>
+            <div class="header__contact">
+                <span class="header__telephon">tel.: +375 (29) 660-25-25</span>
+                <span class="header__address">add.: Татуин, Мос-Эспа, магазин Уотто</span>
+                <span class="headre__email">mail: wattoshop@market.tat</span>
+            </div>
+        </header>
+        <nav class="navigation">
+            <ul class="navigation__list">
+                <li><a href="#about" tabindex="1">О компании</a></li>
+                <li><a href="#assortiment" tabindex="2">Ассортимент</a></li>
+                <li><a href="#delivery" tabindex="3">Условия доставки</a></li>
+                <li><a href="#review" tabindex="4">Ваш отзыв</a></li>
+            </ul>
+        </nav>
+        <div class="wrap-main">
+            <div class="sidebar">
+                <article class="sidebar__article">
+                    <a href="https://www.aviasales.ru/" target="_blank"><img src="image/desert-city.jpg" alt="отдых в Бестине"></a>
+                    <p>Устали от работы и забот? Отдых в Бестине от 350 имперских марок!!!</p>
+                </article>
+                <article class="sidebar__article">
+                    <a href="https://www.vodokachka.ru/" target="_blank"><img src="image/waterboy.jpg" alt="доставка воды"></a>
+                    <p>Перебои с водоснабжением? Служба доставки воды 24/7!!!</p>
+                </article>
+                <article class="sidebar__article">
+                    <a href="https://www.avgust.com/" target="_blank"><img src="image/weed.jpg" alt="какая то картинка"></a>
+                    <p>Устали бороться с сорняками? Достаточно три капли этого средства и вы забудете о сорняках надолго!!!</p>
+                </article>
+            </div>
+            <main>
+                <div class="about">
+                    <a name="about"></a>
+                    <h2>О компании</h2>
+                    <p>ООО «Рыцари старой республики» - дистрибьюторская компания, имеющая все необходимые логистические мощности, финансовые и человеческие ресурсы, позволяющие решать самые сложные дистрибьюторские задачи на рынке Татуина уже более девяноста лет. В нашем ассортиментном портфеле: реплики джедайских и ситхских световых мечей, имперские бластеры, плазменные миниганы времен Старой Республики и многое другое.</p>
+                    <p>Каждый наш клиент – будь то военная компания или честный торговец, может рассчитывать на максимально гибкий подход к решению его задач. Мы считаем, что в нашем бизнесе самое главное – это люди, поэтому с заботой относимся к каждому члену нашей команды, создавая условия для успешной работы сотрудников. Мы уверены,  грамотные профессионалы способны превратить амбиции в реальный успех. Мы достигли хороших результатов - сейчас дело за Лучшими результатами!</p>
+                </div>
+                <div class="assortiment">
+                    <a name="assortiment"></a>
+                    <h2>Образцы нашего оружия</h2>
+                    <div class="img-ass">
+                        <img id="img-weap" src="asset/weapon № 0.jpg" alt="картинка с оружием
+                        ">
+                        <form action="#" class="back-btn">
+                            <button id="btn-back" tabindex="5" class="btn-ass"><img src="logo/back-btn.svg" alt="назад"></button>
+                        </form>
+                        <form action="#" class="next-btn">
+                            <button id="btn-nxt" tabindex="6" class="btn-ass"><img src="logo/next-btn.svg" alt="вперед"></button>
+                        </form>
+                    </div>
+                </div>
+                <div class="delivery">
+                    <a name="delivery"></a>
+                    <h2>Условия доставки</h2>
+                    <h3>Курьерская доставка</h3>
+                    <p>Только на заказы свыше 1500 имперских кредитов</p>
+                    <p>Внутрипланетарная доставка - бесплатно. Срок доставки - 1 сутки или бластер в подарок. </p>
+                    <p>Доставка в пределах звездной системы до 1 а.е. - бесплатно. Свеше 1 а.е. - комиссия 100 имперских марок за каждые 150 млн км. Срок доставки в зависимости от расстояния, уточняйте у операторов.</p>
+                    <h3>Почта Татуина</h3>
+                    <p>Сумму и время доставки уточняйте у операторов почты Татуина.</p>
+                    <h3>Самовывоз</h3>
+                    <p> Татуин, рынок Мос-Эспа, магазин Уотто. Если никого не будет, звоните +375 (29) 660-25-25, спросите Уотто.</p>
+                </div>
+                <div class="review">
+                    <a name="review"></a>
+                    <h2>Ваш отзыв</h2>
+                    <p>В форме ниже оставьте ваши пожелания и предложения по работе нашего магазина</p>
+                    <div class="rev-wrap">
+                        <form action="#" method="GET" class="rev-form">
+                            <div class="firstname">
+                                <label for="firstname">Имя:</label>
+                                <input type="text" tabindex="7" id="firstname" name="firstname" placeholder="Ваше Имя">
+                            </div>
+                            <div class="lastname">
+                                <label for="lastname">Фамилия:</label>
+                                <input type="text" tabindex="8" id="lastname" name="lastname" placeholder="Ваша Фамилия">
+                            </div>
+                            <div class="mail">
+                                <label for="mail">Почта:</label>
+                                <input type="email" tabindex="9" id="mail" name="mail" placeholder="Ваша почта">
+                            </div>
+                            <div class="message">
+                                <textarea tabindex="10" id="message" name="message" placeholder="Ваши пожелания..."></textarea>
+                            </div>
+                            <div>
+                              <button class="sb-btn" type="submit" tabindex="11">Отправить</button>
+                            </div>
+                        </form>
+                        <img src="image/watto.png" alt="Уотто" class="watto-img">
+                    </div>
+                </div>
+            </main>
+        </div>
+        <footer>
+            <p>© Собственность магазина Уотта</p>
+            <div class="icons">
+                <a href="https://twitter.com/home"><img src="logo/twitter.svg"></a>
+                <a href="https://www.linkedin.com/feed/"><img src="logo/linkedin.svg" ></a>
+                <a href="https://www.youtube.com/"><img src="logo/google.svg" ></a>
+                <a href="https://www.facebook.com/"><img src="logo/facebook.svg"></a>
+            </div>
+        </footer>
+    </div>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
